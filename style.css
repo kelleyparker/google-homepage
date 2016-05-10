@@ -4,10 +4,9 @@ body {
 }
 
 
-.header {
+header {
     list-style-type: none;
     margin: 0;
-    padding: 15px 15px;
     position: fixed;
     word-spacing: 20px;
     background-color: #ededed;
@@ -16,6 +15,7 @@ body {
     border-top-style: solid;
     border-bottom-style: solid;
     width: 100%;
+    right: 0;
     text-align: right;
     
 }
@@ -25,7 +25,6 @@ li {
     
 }    
     
-
 }
 .midPage{
     
@@ -34,7 +33,7 @@ li {
 footer {
     background-color: lightgray;
     width: 100%;
-        margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .bottomLeft{
