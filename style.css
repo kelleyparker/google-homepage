@@ -1,0 +1,14 @@
+#topFooter, #bottomFooter {
+    list-style-type: none;
+    display: inline;
+}
+
+li {
+    float: right;
+    padding: 10px;
+    background-color: darkgrey;
+}
+
+.buttons {
+    margin: 30px;
+}
