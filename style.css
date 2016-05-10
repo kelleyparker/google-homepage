@@ -1,14 +1,114 @@
-#topFooter, #bottomFooter {
+body {
+    margin: 0;
+   
+}
+
+
+.header {
     list-style-type: none;
+    margin: 0;
+    padding: 15px 15px;
+    position: fixed;
+    word-spacing: 20px;
+    background-color: #ededed;
+    overflow: hidden;
+    top: 0;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    width: 100%;
+    text-align: right;
+    
+}
+
+li {
     display: inline;
+    
+}    
+    
+
+}
+.midPage{
+    
+}
+
+footer {
+    background-color: lightgray;
+    width: 100%;
+        margin-bottom: 10px;
+}
+
+.bottomLeft{
+    list-style-type: none;
+    padding: 15px 15px;
+    position: fixed;
+    word-spacing: 20px;
+    background-color: #ededed;
+    bottom: 0;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    width: 100%;
+    text-align: left;
+}
+
+.bottomRight{
+    list-style-type: none;
+    padding: 15px 15px;
+    position: fixed;
+    right: 0;
+    word-spacing: 20px;
+    background-color: #ededed;
+    bottom: 0;
+    border-top-width: 5px; 
+    border-bottom-style: solid;
+    text-align: right;
+  
+}
+
+
+
+
+
+
+/*
+
+COMMENTED ON 5/10/2016 to start from scratch
+body {margin:0;}
+
+ul#top {
+    position: fixed;
+    display: inline;
+    top: 0;
+    width 100%;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    right: 0;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+ul.bottomFooter {
+    position: fixed;
+    bottom: 0;
+    width 100%;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    background-color: lightgray;
+    font-family: sans-serif;
+    font-size: 12px;
 }
 
 li {
     float: right;
     padding: 10px;
-    background-color: darkgrey;
+    background-color: lightgray;
+    
+
 }
 
 .buttons {
     margin: 30px;
 }
+   
+*/
